@@ -1,7 +1,7 @@
 site: Made Jekyll Theme
 
-url: 
-baseurl: 
+url:
+baseurl:
 
 collections:
   pages:
@@ -13,27 +13,22 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
-
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-  -
-    scope:
+  - scope:
       path: ""
       type: "projects"
     values:
@@ -50,7 +45,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-  
+
 sass:
   style: compressed
 

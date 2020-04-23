@@ -1,0 +1,49 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Section - service
+
+// - - - - - - - - - - - - - - - - - -
+
+.service {
+  margin-bottom: 50px;
+
+  .title {
+    margin-bottom: 16px;
+  }
+
+  .service__content {
+    .title {
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .cta {
+      margin: 8px 0 0 -4px;
+    }
+  }
+
+  @include mq(tabletp) {
+    margin-bottom: 80px;
+
+    hr {
+      margin-bottom: 120px;
+    }
+
+    .wrap {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .service__content {
+      .subtitle {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}
