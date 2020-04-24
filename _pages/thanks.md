@@ -5,4 +5,4 @@ description: Show off your best work with this beautiful, minimal and customizab
 featured_image: /images/social.jpg
 ---
 
-Please note, this contact form is for demo purposes only and is not monitored. Please contact us [via our website](https://jekyllthemes.io) if you need support.
+Thanks for getting in touch. You'll get an autoresponse email, but I'll also have just been alerted by SMS. I'll try to get back to you as soon as possible

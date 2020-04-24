@@ -1,4 +1,5 @@
 ---
+permalink: /bespoke-api/
 title: Mobile service
 subtitle: High-fidelity mobile app designs for a super awesome social media company.
 date: 2019-07-24 00:00:00

@@ -30,11 +30,9 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: "david@wired-digital.co.uk"
-  form_action: "https://formspree.io/david@wired-digital.co.uk"
-  confirmation_url: "/thanks"
-  email_subject: "Contact form submission"
-  send_button_text: "Get in Touch"
+  email_address: "hello@wired-digital.co.uk"
+  form_action: "https://usebasin.com/f/1b0f963e319b"
+  send_button_text: "Send"
 
 social_settings:
   facebook_url: ""
