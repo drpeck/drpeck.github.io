@@ -1,7 +1,7 @@
 ---
 title: Thank you
 subtitle: Your message was sent successfully.
-description: Show off your best work with this beautiful, minimal and customizable portfolio theme.
+description: Thank you for completing the contact form. I will response to you shortly
 featured_image: /images/social.jpg
 ---
 

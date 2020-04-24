@@ -10,9 +10,9 @@ header_settings:
 menu_settings:
   menu_items:
     - title: "R&D"
-      url: "/research-and-development/"
+      url: "/research-and-development"
     - title: "APIs"
-      url: "/bespoke-apis/"
+      url: "/bespoke-apis"
     - title: "Projects"
       url: "/project/"
     - title: "Blog"
