@@ -1,9 +1,8 @@
 ---
-published: false
-title: Research and Development
-subtitle: Innovative solutions, and prototype development
+published: true
+title: Style options
+subtitle: A list of styles that you could add yo
 description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
-featured_image: /images/social.jpg
 ---
 
 This page is a demo that shows everything you can do inside portfolio and blog posts.

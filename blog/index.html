@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 description: Find out what I've been up through my latest photo blogging adventures..
-featured_image: /images/social.jpg
+no_featured_image: /images/social.jpg
 ---
 
 <div class="page-blog">
@@ -31,13 +31,17 @@ featured_image: /images/social.jpg
             <div class="post__content-wrap">
               <div class="post__content">
                 <time class="post__date label--small"
-                  >{{ post.date | date: "%B %d, %Y" }}</time
+                  >{{ post.date | date: "%d %B, %Y" }}</time
                 >
                 <h2 class="post__title h4">
                   <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h2>
+                {{ if post.subtitle }}
                 <p class="post__subtitle">{{ post.subtitle }}</p>
+                {{ endif }}
+                {{ if post.description }}
                 <p class="post__description">{{ post.description }}</p>
+                {{ description }}
                 <a
                   href="{{ post.url | relative_url }}"
                   class="post__link button--text--accent --right"

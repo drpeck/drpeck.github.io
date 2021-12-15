@@ -1,7 +1,6 @@
 basic_settings:
   site_title: David Peck
   company: Wired Digital Ltd
-  favicon_image: /images/favicon.png
 
 header_settings:
   logo_image:
@@ -9,10 +8,8 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: "R&D"
-      url: "/research-and-development"
-    - title: "APIs"
-      url: "/bespoke-apis"
+    - title: "Services"
+      url: "/services"
     - title: "Projects"
       url: "/project/"
     - title: "Blog"
@@ -21,7 +18,7 @@ menu_settings:
 footer_settings:
   logo_image:
   logo_width: 100
-  tagline: Research and Development freelancer
+  tagline: Freelance solutions design and application development
 
 hero_settings:
   background_image: /images/backgrounds/background-hero.svg

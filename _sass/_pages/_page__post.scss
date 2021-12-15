@@ -253,7 +253,7 @@
 
   @include mq(tabletp) {
     .post__header {
-      padding-bottom: 80px;
+      padding-bottom: 48px;
     }
 
     .post__title {
@@ -295,6 +295,26 @@
       }
     }
   }
+
+  // DP additions
+  
+  .callout{
+    margin: 1.5rem 0;
+    padding: 1.5rem 1rem;
+    background: white;
+    border-radius: 2px;
+
+    &.callout-warning{
+      background: #fcf7fa;
+      border: 1px solid #eecdde;
+    }
+
+    &.callout-info{
+      background: #f6f9f9;
+      border: 1px solid #c8dada;
+    }
+  }
+  
 }
 
 .post__more {
