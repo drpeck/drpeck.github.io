@@ -177,6 +177,10 @@ blockquote {
       font-size: $blockquote-large;
     }
   }
+
+  cite {
+    font-size: $blockquote-small
+  }
 }
 
 a {

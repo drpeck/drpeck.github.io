@@ -40,14 +40,15 @@ layout: default
           href="{{ page.previous.url | relative_url }}"
           >{{page.previous.title}}</a
         >
-        {% endif %} {% if page.next.url %}
+        {% endif %}
+		{% if page.next.url %}
         <a class="next-post subtitle" href="{{ page.next.url | relative_url }}"
           >{{ page.next.title }}</a
         >
         {% endif %}
       </div>
 
-      {% if page.comments %}
+      {% unless page.comments == false %}
       <div id="disqus_thread"></div>
       <script>
         var disqus_config = function () {
@@ -66,7 +67,7 @@ layout: default
       <noscript>
         Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments</a>
       </noscript>
-      {% endif %}
+      {% endunless %}
     </div>
   </section>
 </div>

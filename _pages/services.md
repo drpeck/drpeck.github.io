@@ -19,11 +19,9 @@ I build ASP.NET and JavaScript data driven applications, for whatever purpose yo
 
 Frontend development is incredibly powerful but sometimes there is no getting around that you need a server-side API for persistence, security, heavy computation or to utilise a feature not  available in JavaScript. We can work together so that you get your ideal API without dealing with the complexity of learning another framework or hiring a new employee. You get complete flexibility and none of the headache.
 
----
-
 > “We've worked with David for a number of years and he has shown himself to be a fundamental piece of our digital strategy.”
-
----
+>
+> <cite>Mark Welfare, Head of Digital @ <a href="https://www.bestinvest.co.uk/" target="_blank">Bestinvest</a></cite>
 
 ## CMS
 
@@ -33,11 +31,9 @@ I specialise in a CMS called Umbraco, in fact I have [another website](https://u
 
 Increasingly often people are seeing the benefits of a Headless CMS. I've built Umbraco (and other CMSs) as a Headless service, so that they can supply content to whatever different systems need them.
 
----
-
 > “...The end result was stunning and it was obvious that David took great pride in his work.”
-
----
+>
+> <cite>Liam Kurzeja, Head of Marketing @ <a href="http://www.rspcaassured.org.uk" target="_blank">RSPCA Assured</a></cite>
 
 ## R&D and start-ups
 
@@ -53,11 +49,9 @@ There is tax relief for research and development, but the small print makes it e
 - [PWC](https://www.pwc.co.uk/services/tax/getting-the-most-out-of-innovation/research-and-development-tax-credits.html){:target="_blank"}
 - [HMRC](http://www.hmrc.gov.uk/gds/cird/attachments/rdsimpleguide.pdf){:target="_blank"}
 
----
-
 > “David worked closely with me throughout the process, thinking of and implementing procedures and enhancements that I had not even dreamt about.”
-
----
+>
+> <cite>John Durrant, Founder @ <a href="https://dctr.co.uk/" target="_blank">Doctor Photo</a></cite>
 
 ## Support and maintenance
 
@@ -69,18 +63,14 @@ I help a number of clients with the on-going nature of their application or webs
 - Small development tasks
 - A sympathetic voice at the end of the phone
 
----
-
 > “We were extremely pleased with the quality of the final product, which was completed to an exceptionally high standard, to time and within budget.”
-
----
+>
+> <cite>Ian Brunton-Smith, Professor @ <a href="https://www.surrey.ac.uk" target="_blank">Surrey University</a></cite>
 
 ## Training
 
 If you have staff who need a little more information about anything ASP.NET or general web development then I am happy to provide it. This can also involve on the job training, building a product with you in-house IT team.
 
----
-
 > “I have no hesitation in recommending David. He has a great combination of technical and project management skills..., and perhaps most importantly he’s a great communicator.”
-
----
+>
+> <cite>Martin Finn, EVP, Global Operations @ <a href="https://uk.everfi.com/" target="_blank">EVERFI UK</a></cite>

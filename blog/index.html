@@ -36,12 +36,12 @@ no_featured_image: /images/social.jpg
                 <h2 class="post__title h4">
                   <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
                 </h2>
-                {{ if post.subtitle }}
+                {% unless post.subtitle == empty %}
                 <p class="post__subtitle">{{ post.subtitle }}</p>
-                {{ endif }}
-                {{ if post.description }}
+                {% endunless  %}
+                {% unless post.description == empty %}
                 <p class="post__description">{{ post.description }}</p>
-                {{ description }}
+                {% endunless  %}
                 <a
                   href="{{ post.url | relative_url }}"
                   class="post__link button--text--accent --right"
