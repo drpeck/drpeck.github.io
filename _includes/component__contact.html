@@ -5,7 +5,7 @@
     <div class="contact__wrap">
       <header class="contact__header">
         <h2 class="title">Get In Touch</h2>
-        <p class="subtitle--light" style="display: none;">
+        <p class="subtitle--light" style="display: none">
           Prefer using email? Say hi at
           <a
             href="#"
@@ -21,12 +21,14 @@
         action="{{ site.data.settings.contact_settings.form_action }}"
         class="contact__form"
       >
+        <div class="g-recaptcha" data-sitekey="{{ site.data.settings.contact_settings.recaptcha_site_key }}"></div>
+
         <div class="input-group">
           <label for="name">Your Name</label>
           <input
             type="text"
-            name="name"
             id="name"
+            name="name"
             placeholder="What should I call you?"
           />
         </div>
@@ -35,8 +37,8 @@
           <label for="email">Your Email</label>
           <input
             type="email"
-            name="email"
             id="email"
+            name="email"
             placeholder="What's your email address?"
             required="required"
           />
@@ -45,21 +47,25 @@
         <div class="input-group">
           <label for="message">Your Message</label>
           <textarea
+          id="message"
             name="message"
-            id="message"
             placeholder="How can I help you?"
             rows="4"
           ></textarea>
         </div>
 
-        <input
-          type="text"
-          name="_details"
-          style="display: none;"
-          class="contact-form__gotcha"
-          val=""
-        />
+        <div class="input-group gotcha">
+          <label for="address">Your Address</label>
+          <input
+            type="text"
+            id="address"
+            name="address"
+            class="contact-form__gotcha"
+            val=""
+          />
+        </div>
 
+        {% comment %}
         <div class="input-submit">
           <input
             type="submit"
@@ -67,6 +73,7 @@
             value="{{ site.data.settings.contact_settings.send_button_text }}"
           />
         </div>
+        {% endcomment %}
       </form>
     </div>
   </div>

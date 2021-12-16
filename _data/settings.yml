@@ -28,7 +28,8 @@ post_settings:
 
 contact_settings:
   email_address: "hello@wired-digital.co.uk"
-  form_action: "https://usebasin.com/f/1b0f963e319b"
+  form_action: "https://formspree.io/f/david@wired-digital.co.uk"
+  recaptcha_site_key: "6LeF36gdAAAAACYxrjseiqC1PjJhPx1ndttuX09d"
   send_button_text: "Send"
 
 social_settings:
