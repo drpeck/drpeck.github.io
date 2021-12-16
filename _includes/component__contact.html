@@ -54,6 +54,7 @@
           ></textarea>
         </div>
 
+        {% comment %}
         <div class="input-group gotcha">
           <label for="address">Your Address</label>
           <input
@@ -64,8 +65,8 @@
             val=""
           />
         </div>
+        {% endcomment %}
 
-        {% comment %}
         <div class="input-submit">
           <input
             type="submit"
@@ -73,7 +74,6 @@
             value="{{ site.data.settings.contact_settings.send_button_text }}"
           />
         </div>
-        {% endcomment %}
       </form>
     </div>
   </div>
